@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOTBALL SOCIAL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>FOOTBALL SOCIAL</h1>
+            </div>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="players.html">Players</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2>Welcome to Football Social</h2>
+        <p class="hero-text">Connect, discuss, and follow all things football!</p>
+        <button onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'});">
+            Join Now
+        </button>
+    </section>
+
+    <!-- Highlights Section -->
+    <section id="highlights">
+        <h2>Latest Highlights</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="images/match1.jpg" alt="Match 1">
+                <h3>Champions League Final</h3>
+                <p>Experience the intense clash between two football giants!</p>
+            </div>
+            <div class="card">
+                <img src="images/match2.jpg" alt="Match 2">
+                <h3>Derby Day Drama</h3>
+                <p>Relive the most thrilling moments from this weekend’s games.</p>
+            </div>
+            <div class="card">
+                <img src="images/match3.jpg" alt="Match 3">
+                <h3>Top Goals of the Month</h3>
+                <p>A compilation of the most stunning goals scored this month.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Football Social</h2>
+        <p>
+            Love football? So do we! Football Social brings fans together to share, discuss, and celebrate the beautiful game.
+            From match highlights to transfer rumors, from player stats to fan opinions — this is your go-to place to stay connected with everything football.
+            Whether you support Team A or Team Z, everyone’s welcome here — because football is for everyone!
+        </p>
+    </section>
+
+    <!-- Join Community CTA -->
+    <section class="join">
+        <h2>Join Our Community Today</h2>
+        <p>Be part of a global family of football lovers. Stay updated, share opinions, and celebrate victories together!</p>
+        <button>Get Started</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Football Social Hub | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
